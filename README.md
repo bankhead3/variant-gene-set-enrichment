@@ -1,5 +1,5 @@
 # variant-gene-set-enrichment
-Written by Armand Bankhead
+Written by Armand Bankhead, armand.bankhead@gmail.com
 
 This code takes as input rectal cancer patient variant calls from the paper "Rectal cancer sub-clones respond differentially to neoadjuvant therapy" https://pubmed.ncbi.nlm.nih.gov/31521947/ published in Neoplasia in 2019.  While we ended up publishing a different systems biology analysis using HotNet2, this earlier analysis provided insight to gene sets enriched for patients with resistant variant mutations.  
 
@@ -19,3 +19,6 @@ This permutation simulation approach is different from typical gene set enrichme
 - R
 - R packages: dplyr, parallel
 - python2 
+
+# instructions
+- Run code using the process.sh script by typing ./process.sh
